@@ -1,0 +1,9 @@
+# Cargo build output
+target/
+
+# Binarios compilados con rustc (mismo nombre que el .rs, sin extensión)
+hello_world/main
+hello_cargo/src/main
+
+# macOS
+.DS_Store
