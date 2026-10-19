@@ -10,4 +10,8 @@ fn main() {
 
     let y = y + 5;
     println!("Now it is {y}");
+
+    let string :i32 = "132".parse().expect("Was not a number");
+    let string = string*2;
+    println!("{string}");
 }
